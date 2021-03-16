@@ -1,0 +1,32 @@
+BDD/Menu.c:60:7: warning: %d in format string (no. 1) requires 'int' but the argument type is 'signed int *'. [invalidPrintfArgType_sint]
+      printf("%d\n",&co );
+      ^
+BDD/List.c:64:2: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+ scanf("%s",&item->Name);
+ ^
+BDD/List.c:66:2: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+ scanf("%s",&item->Tp);
+ ^
+BDD/List.c:72:2: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+ scanf("%s",&item->RouleComp);
+ ^
+BDD/Menu.c:97:2: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+ scanf("%s",&item->Name);
+ ^
+BDD/Menu.c:99:2: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+ scanf("%s",&item->Tp);
+ ^
+BDD/Menu.c:105:2: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+ scanf("%s",&item->RouleComp);
+ ^
+BDD/Menu.c:136:3: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+  scanf("%s",&b);
+  ^
+BDD/List.c:25:21: style: The scope of the variable 'p' can be reduced. [variableScope]
+ struct BDITEM *pt,*p;
+                    ^
+BDD/Menu.c:10:22: style: Unused variable: l [unusedVariable]
+  struct BDITEM *pt,*l;
+                     ^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+

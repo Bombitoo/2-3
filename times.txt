@@ -1,0 +1,21 @@
+time gcc -o0 First_Case.c -s -lm
+
+real    0m0.466s
+user    0m0.141s
+sys     0m0.203s
+
+time gcc -o1 First_Case.c -s -lm                                                                                                      real    0m0.426s
+user    0m0.125s
+sys     0m0.203s                                                                   
+time gcc -o2 First_Case.c -s -lm                                                                                                      real    0m0.500s
+user    0m0.047s
+sys     0m0.359s                                                                   
+time gcc -o3 First_Case.c -s -lm                                                                                                      real    0m0.467s
+user    0m0.063s
+sys     0m0.266s                                                                   
+time gcc -ofast First_Case.c -s -lm                                                                                                   real    0m0.453s
+user    0m0.109s
+sys     0m0.266s                                                                   
+time gcc -os First_Case.c -s -lm                                                                                                      real    0m0.446s
+user    0m0.078s
+sys     0m0.266s 
